@@ -44,9 +44,7 @@ int main() {
         default:
             printf("Invalid choice\n");
     }
-
-    // ask user if they want to perform another operation
-    char choice2;
+    
     printf("Do you want to perform another operation? (y/n): ");
     scanf("%c", &choice2);
 
